@@ -12,9 +12,30 @@ nav {
   font-size: 18px;
 }
 
-@media only screen and (max-width: 800px) {
-  p {
-    width: 100%;
+@media only screen and (max-width: 600px) {
+  nav a {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    /*display: block;
+    align-items: center;
+    margin: 0;
+    padding: 0;*/
+  }
+
+  .main-header,
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  article {
+    padding: 0;
+    margin: 0;
   }
 }
 
