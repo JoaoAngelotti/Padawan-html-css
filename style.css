@@ -12,9 +12,9 @@ nav {
   font-size: 18px;
 }
 
-@media only screen and (max-width: 900px) {
-  a {
-    width: 50%;
+@media only screen and (max-width: 800px) {
+  p {
+    width: 100%;
   }
 }
 
